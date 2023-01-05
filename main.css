@@ -11,15 +11,20 @@ html {
   padding: 0;
   margin: 0;
 }
+
 body {
   font-family: sans-serif;
   height: 100%;
   margin: 0;
   background: #261c33;
   overflow: hidden;
-  display: flex; 
-  align-items: center; 
-  justify-content: center 
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+[v-cloak] {
+  display: none;
 }
 
 h2 {
@@ -28,6 +33,7 @@ h2 {
   font-size: 40px;
   margin: 20px;
 }
+
 main {
   display: flex;
   justify-content: space-around;
@@ -38,22 +44,27 @@ main {
   font-family: monospace, sans-serif;
   font-size: 22px;
 }
-main label{
+
+main label {
   display: block;
 }
+
 main input[type="range"] {
   display: block;
   margin-bottom: 10px;
   width: 200px;
 }
+
 section.settings {
   width: 50%;
   z-index: 2;
 }
+
 .box-container {
   padding: 50px;
   border: 1px solid #8d81f3;
 }
+
 .box {
   width: 150px;
   height: 150px;
@@ -71,6 +82,6 @@ button {
   margin-right: 10px;
 }
 
-label{
+label {
   color: #fff;
 }
